@@ -142,8 +142,8 @@
 /* main  */
 #heroblock{
     background-image: url(/heroimage.jpg);
-    height: 600px;
     background-size: cover;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -160,25 +160,63 @@
 #heroblock-block1 a{
     color: #007185;
 }
+/* content box shopping */
+#shoping-content{
+    display: flex;
+    margin-top: 20px;
+    align-content: space-between;
+    background-color: pink;
+}
+.content-box{
+    height: 350px;
+    width: 360px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 0.9rem;
+    background-color: white;
+}
+.content-image{
+    cursor: pointer;
+}
+.content-image{
+    height: 267px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+}
+.content-line3{
+    padding-top: 1rem;
+    color: #007185;
+}
+.content-line3:hover{
+    color: rgb(204, 63, 63);
+    cursor: pointer;
+}
 /* Footer  */
 #footer1{
-    height: 50px;
+    height: 3rem;
     background-color: #37475A;
     color: white;
     text-align: center;
+    font-size: 1rem;
+    padding-top: 1rem;
 }
-
+#footer1:hover{
+    color: rgb(204, 63, 63);
+}
 #footer2{
     height: 300px;
     background-color:#232F3E;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 1.3rem;
 }
 .headling_line{
     color: white;
     font-size: 20px;
     font-weight: bold;
+    padding-bottom: 1rem;
 }
 .contact_option{
     padding: 0;
@@ -209,14 +247,16 @@
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    font-size: 12px;
+    font-size: 13px;
+    padding-bottom: 2rem;
 }
 #footer4_sub{
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     display: flex;
     list-style-type: none;
-    padding-left: 170px;
+    padding-left: 10.2rem;
+    padding-right: 2rem;
     justify-content: space-between;
 }
 #footlist{
@@ -225,7 +265,6 @@
     display: flex;
     flex-direction:row;
     justify-content: center;
-
 }
 #footer_item1,#footer_item2{
     margin-right: 25px;
